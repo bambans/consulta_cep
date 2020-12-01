@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Via cep</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="cep_style.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Via Cep</h1>
+			</header>
+			<nav>
+				<input type="text" id="input_cep" maxlength="8" placeholder="Preencha com CEP (sem pontos ou traços)">
+				<br>
+				<br>
+				<a href="https://viacep.com.br/" target="_blank"><input type="text" id="link" value="https://viacep.com.br/" disabled></a>
+			</nav>
+		</div>
+		<br>
+		<div class="response">
+			<div class="c1 r1">
+				<label for="cep"><b>CEP:</b></label>
+				<input class="input_response" type="text" id="cep" disabled>
+			</div>
+			<div class="c2 r1">
+				<label for="cep"><b>Logradouro:</b></label>
+				<input class="input_response" type="text" id="logradouro" disabled>
+			</div>
+			<div class="c1 r2">
+				<label for="cep"><b>Complemento:</b></label>
+				<input class="input_response" type="text" id="complemento" disabled>
+			</div>
+			<div class="c2 r2">
+				<label for="cep"><b>Bairro:</b></label>
+				<input class="input_response" type="text" id="bairro" disabled>
+			</div>
+			<div class="c1 r3">
+				<label for="cep"><b>Localidade:</b></label>
+				<input class="input_response" type="text" id="localidade" disabled>
+			</div>
+			<div class="c2 r3">
+				<label for="cep"><b>UF:</b></label>
+				<input class="input_response" type="text" id="uf" disabled>
+			</div>
+			<div class="c1 r4">
+				<label for="cep"><b>IBGE:</b></label>
+				<input class="input_response" type="text" id="ibge" disabled>
+			</div>
+			<div class="c2 r4">
+				<label for="cep"><b>GIA:</b></label>
+				<input class="input_response" type="text" id="gia" disabled>
+			</div>
+			<div class="c1 r5">
+				<label for="cep"><b>DDD:</b></label>
+				<input class="input_response" type="text" id="ddd" disabled>
+			</div>
+			<div class="c2 r5">
+				<label for="cep"><b>SIAFI:</b></label>
+				<input class="input_response" type="text" id="siafi" disabled>
+			</div>
+		</div>
+		<footer>
+				<span>Feito com 🖤 por Otávio Rodrigues Bambans</span>
+		</footer>
+		<script src="cep_script.js"></script>
+	</body>
+</html>
