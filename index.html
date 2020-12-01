@@ -11,7 +11,8 @@
 				<h1>Via Cep</h1>
 			</header>
 			<nav>
-				<input type="text" id="input_cep" maxlength="8" placeholder="Preencha com CEP (sem pontos ou traços)">
+				<input type="text" id="input_cep" placeholder="Preencha com CEP" pattern="[0-9]{8}" maxlength="8">
+				<span><b>Exemplo:</b> para o CEP 01.001-000, digite 01001000.</span>
 				<br>
 				<br>
 				<a href="https://viacep.com.br/" target="_blank"><input type="text" id="link" value="https://viacep.com.br/" disabled></a>
